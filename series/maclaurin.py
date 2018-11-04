@@ -1,4 +1,5 @@
 import utils 
+import math
 
 def maclaurin_factor(n):
   return math.pow(-1, n) * math.factorial(2 * n) / \
@@ -11,6 +12,6 @@ def maclaurin_series(x, number):
   for n in range(0, number + 1):
       result += (maclaurin_factor(n) * math.pow((-1.0 * x), n))
     
-  print("result = %f" % (result)) 
+  #print("result = %f" % (result)) 
   return result
 

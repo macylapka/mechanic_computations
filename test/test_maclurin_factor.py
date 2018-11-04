@@ -1,6 +1,9 @@
 import unittest
-from series import maclaurin
-from utils  import functions
+import sys
+sys.path.append('series/')
+sys.path.append('utils/')
+import maclaurin
+import utils
 
 class test_maclaurin_factor(unittest.TestCase):
 

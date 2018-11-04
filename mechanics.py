@@ -17,7 +17,6 @@ def pistone_stroke(R, L, alfa, beta):
 def pistone_stroke_2(R, L, alfa):
  return R * ((1 - math.cos(alfa)) + ((R / L) / 4 * (1 - math.cos(2 * alfa))))
 
-
 def main():
     
   print("pistone_stroke = %f" % pistone_stroke(50, 25, 20, 10))
