@@ -1,9 +1,8 @@
-import math
-from utils import factorial
+import utils 
 
 def maclaurin_factor(n):
-  return math.pow(-1, n) * factorial.factorial(2 * n) / \
-         ((1 - 2 * n) * math.pow(factorial.factorial(n), 2) * math.pow(4, n))
+  return math.pow(-1, n) * math.factorial(2 * n) / \
+         ((1 - 2 * n) * math.pow(math.factorial(n), 2) * math.pow(4, n))
 
 
 def maclaurin_series(x, number):

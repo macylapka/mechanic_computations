@@ -1,9 +1,12 @@
 import sys
+sys.path.append('./utils')
+
+import utils
 import math
+
 from series   import maclaurin
 from series   import trigonometric
 from capacity import engine_capacity
-from utils    import functions
 
 
 def pistone_stroke(R, L, alfa, beta):

@@ -1,8 +1,7 @@
-import math 
-from utils import factorial
+import utils
 
 def trigonometric_factor(n):
-  return math.pow(-1, n) / (factorial.factorial(2 * n))
+  return math.pow(-1, n) / (math.factorial(2 * n))
 
 
 def trigonometric_series(x, number):
