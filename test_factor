@@ -1,6 +1,6 @@
 import unittest
-from series import maclaurin
-from utils  import functions
+import series.maclaurin
+import utils.utils
 
 class test_maclaurin_factor(unittest.TestCase):
 

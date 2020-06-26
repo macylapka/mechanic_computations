@@ -1,7 +1,5 @@
 import unittest
 import sys
-sys.path.append('series/')
-sys.path.append('utils/')
 import maclaurin
 import utils
 
