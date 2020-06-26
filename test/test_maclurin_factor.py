@@ -1,7 +1,5 @@
 import unittest
-import sys
-import maclaurin
-import utils
+import series.maclaurin as maclaurin
 
 class test_maclaurin_factor(unittest.TestCase):
 
